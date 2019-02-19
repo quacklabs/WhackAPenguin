@@ -9,25 +9,25 @@
 /* Begin PBXBuildFile section */
 		2511CF90221BFBA200B0FA95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2511CF8F221BFBA200B0FA95 /* AppDelegate.swift */; };
 		2511CF92221BFBA200B0FA95 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2511CF91221BFBA200B0FA95 /* GameScene.sks */; };
-		2511CF94221BFBA200B0FA95 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2511CF93221BFBA200B0FA95 /* Actions.sks */; };
 		2511CF96221BFBA200B0FA95 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2511CF95221BFBA200B0FA95 /* GameScene.swift */; };
 		2511CF98221BFBA200B0FA95 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2511CF97221BFBA200B0FA95 /* GameViewController.swift */; };
 		2511CF9B221BFBA200B0FA95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2511CF99221BFBA200B0FA95 /* Main.storyboard */; };
 		2511CF9D221BFBA400B0FA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2511CF9C221BFBA400B0FA95 /* Assets.xcassets */; };
 		2511CFA0221BFBA400B0FA95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2511CF9E221BFBA400B0FA95 /* LaunchScreen.storyboard */; };
+		2511CFA8221C00DE00B0FA95 /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2511CFA7221C00DE00B0FA95 /* WhackSlot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2511CF8C221BFBA200B0FA95 /* WhackAPenguin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhackAPenguin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2511CF8F221BFBA200B0FA95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2511CF91221BFBA200B0FA95 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		2511CF93221BFBA200B0FA95 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		2511CF95221BFBA200B0FA95 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		2511CF97221BFBA200B0FA95 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		2511CF9A221BFBA200B0FA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2511CF9C221BFBA400B0FA95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2511CF9F221BFBA400B0FA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2511CFA1221BFBA400B0FA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2511CFA7221C00DE00B0FA95 /* WhackSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +62,8 @@
 			children = (
 				2511CF8F221BFBA200B0FA95 /* AppDelegate.swift */,
 				2511CF91221BFBA200B0FA95 /* GameScene.sks */,
-				2511CF93221BFBA200B0FA95 /* Actions.sks */,
 				2511CF95221BFBA200B0FA95 /* GameScene.swift */,
+				2511CFA7221C00DE00B0FA95 /* WhackSlot.swift */,
 				2511CF97221BFBA200B0FA95 /* GameViewController.swift */,
 				2511CF99221BFBA200B0FA95 /* Main.storyboard */,
 				2511CF9C221BFBA400B0FA95 /* Assets.xcassets */,
@@ -135,7 +135,6 @@
 				2511CF92221BFBA200B0FA95 /* GameScene.sks in Resources */,
 				2511CF9D221BFBA400B0FA95 /* Assets.xcassets in Resources */,
 				2511CFA0221BFBA400B0FA95 /* LaunchScreen.storyboard in Resources */,
-				2511CF94221BFBA200B0FA95 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +147,7 @@
 			files = (
 				2511CF96221BFBA200B0FA95 /* GameScene.swift in Sources */,
 				2511CF98221BFBA200B0FA95 /* GameViewController.swift in Sources */,
+				2511CFA8221C00DE00B0FA95 /* WhackSlot.swift in Sources */,
 				2511CF90221BFBA200B0FA95 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
